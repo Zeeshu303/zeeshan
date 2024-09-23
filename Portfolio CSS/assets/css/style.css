@@ -1,0 +1,653 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.homediv{
+    height: 160vh;
+    width: 100%;
+    background-image: url(../media/hero_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.homeopacity{
+    height: 160vh;
+    width: 100%;
+    background-color: rgb(13, 13, 13, 0.4);
+}
+.noxinmain h1{
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+.noxinmain span{
+    color: rgb(201, 20, 20);
+}
+.noxinmain{
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.toptxt{
+    display: flex;
+}
+.toptxt i{
+    font-size: 1.5rem;
+    padding-right: 10px;
+}
+.noxin{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 30px;
+    padding-right: 145px;
+}
+.toptxt p{
+    padding-right: 20px;
+}
+header nav{
+    height: 18vh;
+    width: 80%;
+    background-color: white; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; 
+    margin-top: 50px;
+    margin-left: 120px;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul li{
+    list-style-type: none;
+}
+header nav ul li a{
+    padding-left: 35px;
+    color: black;
+    display: inline-block;
+    text-decoration: none
+}
+header nav ul li a:hover{
+    color: rgb(201, 20, 20);
+}
+nav ul li:last-child {
+    margin-left: 250px;
+}
+.homebody{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hometext{
+    margin-left: 70px;
+}
+.hometext h1{
+    font: 300 3rem serif;
+    line-height: 1;
+    padding-top: 180px;
+    padding-bottom: 20px;
+}
+.hometext p{
+    width: 78%;
+    line-height: 2;
+    word-spacing: 5px;
+    font-size: 1.1rem;
+    font-family: serif;
+}
+.homeimg{
+    height: 70vh;
+    width: 100%;
+    background-image: url(../media/hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 100px;
+    
+}
+.dot{
+    height: 70vh;
+    width: 8%;
+    background-image: url(../media/white-dots.png);
+    background-repeat: repeat;
+}
+
+.homebtn{
+    margin-top: 40px;
+}
+.homebtn button{
+    padding: 10px 20px 10px;
+    border-radius: 60px;
+    background-color: rgb(223, 74, 74);
+    border: none;
+    letter-spacing: 6px;
+}
+.homebtn button a{
+    text-decoration: none;
+    color: white;
+}
+.homebtn button:hover{
+    background-color: rgb(201, 20, 20);
+}
+.agencymain{
+    height: 95vh;
+    width: 100%;
+}
+.agencyflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.agency h3{
+    text-align: center;
+    color: rgb(225, 222, 222);
+    font-family: serif;
+    font-weight: 200;
+}
+.agency h1{
+    font-family: serif;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+.agencycardmain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.agencycard{
+    height: 30vh;
+    width: 27%;
+    background-color: rgb(222, 235, 241);
+    padding: 30px;
+}
+.agencycard p{
+    color: rgb(194, 190, 190);
+}
+.agencycard i{
+    font-size: 2rem;
+    
+}
+.agencycard h3{
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.agencybtn{
+    text-align: center;
+    margin-top: 40px;
+}
+.agencybtn button{
+    padding: 10px 20px 10px;
+    border-radius: 60px;
+    background-color: rgb(223, 74, 74);
+    border: none;
+}
+.agencybtn button a{
+    text-decoration: none;
+    color: white;
+}
+.agencybtn button:hover{
+    background-color: rgb(201, 20, 20);
+}
+.firstcolor{
+    height: 8px;
+    width: 100%;
+    background-image: linear-gradient(100deg, rgb(223, 74, 74) 90%,white 20%);
+    
+}
+.skillmain{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    gap: 150px;
+    background-color: rgb(231, 231, 231);
+}
+.parent1{
+    width: 40%;
+    padding-left: 40px;
+}
+.skiltxt h2{
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+.signmain{
+    display: flex;
+    margin: 40px;
+}
+.sign{
+    height: 100px;
+    width: 40%;
+    background-image: url(../media/Capture-removebg-preview.png);  
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.signtext h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.h2skill h2{
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.h3html h3{
+    padding: 10px 10px;
+}
+.servmain{
+    height: 160vh;
+    width: 100%;
+    background-image: url(../media/hero_2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servopc{
+    height: 160vh;
+    width: 100%;
+    background-color: rgb(16, 16, 16,0.6);
+}
+.servtoptxt{
+    text-align: center;
+    color: white;
+}
+.servtoptxt h1{
+    font-size: 2.6rem;
+    font-weight: 100;
+    padding-top: 60px;
+}
+.servhr{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+.servhr hr{
+    height: 2px;
+    width: 20%;
+    background-color: rgb(223, 74, 74);
+    border: none;
+}
+.servtoptxt p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.servgridmain{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.servgrid{
+   text-align: center;
+}
+.servradi{
+    height: 90px;
+    width: 90px;
+    border: 4px solid rgb(223, 74, 74);
+    border-radius: 50%;
+    text-align: center;
+    margin: 40px 150px;
+}
+.servradi i{
+    font-size: 2.5rem;
+    padding: 20px;
+}
+.gridtxt h1{
+    color: white;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+.gridtxt p{
+    width: 85%;
+    padding-left: 40px;
+    color: rgb(205, 202, 202);
+}
+.footmain{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot1{
+    padding-left: 130px;
+}
+.foot1 h3{
+    color: rgb(223, 74, 74);
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+.foot1 p{
+    color: white;
+    width: 40%;
+}
+.footform form p{
+    color: rgb(223, 74, 74);
+    padding: 50px 0px 20px;
+}
+.footform form input{
+    padding: 20px;
+}
+.footform form button{
+    padding: 20px;
+    border-radius: 40px;
+    background-color: rgb(194, 44, 44);
+    border: none;
+}
+.footform form button:hover{
+    background-color: rgb(201, 20, 20);
+}
+.footform form button a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+.foot2{
+    display: flex;
+    padding: 0 200px 100px 0;
+    gap: 150px;
+}
+.foot2txt h4{
+    color: rgb(223, 74, 74);
+    font-weight: 200;
+    padding: 70px 0 20px;
+}
+.foot2txt ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.foot2txt ul li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+.foot2txt ul li a:hover{
+    color: white;
+}
+.footnav h4{
+    color: rgb(223, 74, 74);
+    font-weight: 200;
+    padding: 70px 0 20px;
+}
+.footnav ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.footnav ul li a{
+    text-decoration: none;
+    color: rgb(70, 70, 70);
+}
+.footnav ul li a:hover{
+    color: white;
+}
+.last{
+    height: 30vh;
+    width: 100%;
+    background-color: black;
+}
+.last hr{
+    width: 70%;
+    opacity: 0.1;
+    margin-left: 150px;
+}
+.last p{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+}
+
+@media (max-width:1024px) {
+    header nav ul li a{
+        padding-left: 20px;
+    }
+    .servgridmain{
+       grid-template-columns: 1fr 1fr;
+    }
+    .servhr hr{
+        width: 20%;
+    }   
+    .dot{
+        height: 50vh;
+        width: 7%;
+    }
+    .servmain{
+        height: auto;
+    }
+    .servopc{
+        height: auto;
+    }
+}
+@media (max-width:768px) {
+    header nav ul li a{
+        padding-left: 20px;
+    }
+    header nav{
+        margin-left: 90px;
+    }
+    nav ul li:last-child{
+        margin-left: 70px;
+    }
+    .toptxt{
+        display: none;
+    }
+    .noxinmain{
+        width: 70%;
+    }
+    .servhr{
+        width: 100%;
+    }
+    .dot{
+        display: none;
+    }
+    .hometext{
+        margin: 25px;
+    }
+    .hometext h1{
+        font-size: 2.5rem;
+    }
+    .agencymain{
+        height: auto;
+    }
+    .agencycardmain{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .agencycard{
+        height: auto;
+    }
+    .skillmain{
+        height: auto;
+        gap: 100px;
+    }
+    .servmain{
+        height: auto;
+    }
+    .servhr{
+        width: 100%;
+        
+    }
+    .servtoptxt p{
+        padding: 10px 230px;
+    }
+    .servradi{
+        margin: 30px 140px;
+    }
+    .footmain{
+        height: auto;
+    }
+    .foot1 p{
+        width: 100%;
+    }
+    .footform form p{
+        padding-top: 25px;
+    }
+    .footform form input{
+        margin-bottom: 10px;
+    }
+    .foot2{
+        padding-right: 50px;
+        gap: 50px;
+    }
+}
+@media (max-width:426px) {
+    header nav{
+        height: 12vh;
+        margin-left: 40px;
+    }
+    header nav ul{
+        font-size: .7rem;
+    }
+    nav ul li:last-child{
+        display: none;
+    }
+    .toptxt{
+        display: none;
+    }
+    .noxinmain{
+        width: 90%;
+    }
+    .dot{
+        display: none;
+    }
+    .homediv{
+        height: auto;
+    }
+    .hometext{
+        width: 70%;
+        margin: 15px;
+    }
+    .hometext h1{
+        padding-top: 70px;
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+    .hometext p{
+        width: 100%;
+        line-height: 1.2;
+        word-spacing: 5px;
+        font-family: serif;
+    }
+    .homeimg{
+    margin: auto;
+    }
+    .agencymain{
+        height: auto;
+    }
+    .agencycardmain{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .agencycard{
+        height: auto;
+        flex-basis: 70%;
+    }
+    .skillmain{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .parent1{
+        width: 80%;
+    }
+    .parent2{
+        width: 70%;
+        padding-left: 40px;
+    }
+    .h2skill h2{
+        padding-top: 10px;
+    }
+    .servmain{
+        height: auto;
+    }
+    .servhr{
+        width: 100%;
+        
+    }
+    .servtoptxt p{
+        width: 70%;
+        padding: 10px 65px;
+    }
+    .servgridmain{
+        grid-template-columns: 1fr;
+    }
+    .gridtxt h1{
+        width: 95%;
+    }
+    .gridtxt p{
+        width: 60%;
+        padding-left: 80px;
+    }
+    .footmain{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    .foot1{
+        padding-left: 30px;
+    }
+    .foottxt{
+        padding: 15px;
+    }
+    .foot1 p{
+        width: 90%;
+    }
+    .footform form{
+        padding-left: 15px;
+    }
+    .footform form input{
+        margin-bottom: 10px;
+    }
+    .foot2{
+        padding-right: 50px;
+        gap: 50px;
+    }
+    .last hr{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .last p{
+        width: 80%;
+        padding-left: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
